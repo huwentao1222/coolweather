@@ -87,7 +87,7 @@ public class CoolWeatherDB {
 		}
 	}
 	
-	public List<City> loadCitys (int provinceId)
+	public List<City> loadCities (int provinceId)
 	{
 		List<City> list = new ArrayList<City>();
 		Cursor cursor = db.query("City",
@@ -127,7 +127,7 @@ public class CoolWeatherDB {
 		}
 	}
 	
-	public List<Country> loadCountrys (int cityId)
+	public List<Country> loadCountries (int cityId)
 	{
 		List<Country> list = new ArrayList<Country>();
 		Cursor cursor = db.query("Country",
